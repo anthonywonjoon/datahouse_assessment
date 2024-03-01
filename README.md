@@ -1,12 +1,12 @@
 # Datahouse Assessment
----
+
 
 ## Specifications
 - Input and Output must be in JSON
 - Compatibility score for each applicant should fall in a range from [0, 1]
 - Use any programming language you wish to develop in
 
----
+
 
 ## Instructions
 The input JSON is stored in the input.json file and imported into the compatibilityScorer.js files for use. Modify the input.json file for different inputs.
@@ -14,7 +14,7 @@ The input JSON is stored in the input.json file and imported into the compatibil
 To execute, run
 
 
----
+
 
 ## Thought Process
 
@@ -33,7 +33,7 @@ node ./compatibilityScorer.js
 ```
 
 
----
+
 
 ## Functions
 
@@ -64,11 +64,11 @@ This function is for use in the focusedScoreGenerator function, where if a prior
 
 This returns a string of the lowest scored attribute.
 
----
+
 
 ## Sample JSON Input
 
-```json
+```
 {
     "team": [
         {
@@ -130,10 +130,10 @@ This returns a string of the lowest scored attribute.
     ]
 }
 ```
----
+
 ## Sample JSON Output
 
-```json
+```
 {
   scoredApplicants: [
     { name: 'John', score: 0.4 },
